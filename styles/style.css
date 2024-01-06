@@ -12,6 +12,12 @@ ul, li {
     list-style: none;
 }
 
+li {
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+}
+
 button {
     border-radius: 20px;
     border-style: none;
@@ -67,8 +73,8 @@ button {
 }
 
 .icon {
-    width: 1.5rem;
-    height: 1.5rem;
+    width: 2rem;
+    height: 2rem;
 }
 
 .profile {
@@ -96,7 +102,10 @@ button {
     gap: 50px;
     grid-row: 1 / 4;
     grid-column: 1 / 2;
-    
+}
+
+.sidebar .icon {
+    margin-right: 1rem;
 }
   
 .sidebar .side-content {
