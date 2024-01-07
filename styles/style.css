@@ -51,14 +51,14 @@ button {
     color: white;
 }
   
-.container .header {
+.header {
     background-color: #393f4d;
     grid-column: 2 / -1;
     grid-template-columns: 1fr 1fr;
     padding: 0rem 2rem 0rem 1rem;
 }
 
-.container .header div {
+.header div {
     padding-bottom: 1.5rem;
 }
 
@@ -136,6 +136,7 @@ button {
 
 .card {
     border-radius: 20px;
+    box-shadow: 4px 4px 5px rgba(0,0,0,0.2);
 }
   
 .article-cards .card {
@@ -158,6 +159,15 @@ button {
     text-align: center;
     text-decoration: underline;
     text-underline-offset: 4px;
+}
+
+.card-options {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.card-options .icon{
+    margin: 20px 0px 0px 10px;
 }
 
 .nav {
